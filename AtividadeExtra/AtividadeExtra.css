@@ -1,0 +1,50 @@
+body {
+	font: 150% Arial, Helvetica, sans-serif;
+}
+#pagina {
+	padding: 5px;
+	width: 960px; 
+	height: 960px;
+	margin: 20px auto;
+}
+
+
+@media screen and (max-width: 1920px) {
+	#pagina {
+		background: #e7f709;
+	}
+
+}
+@media screen and (max-width: 1080px) {
+	#pagina {
+		background: #dd3309;
+	}
+
+}
+@media screen and (max-width: 1366px) {
+	#pagina {
+		background: #3835eb;
+	}
+
+}
+@media screen and (max-width: 1024px) {
+	#pagina {
+		background: #dd09af;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+	#pagina {
+		background: #dd5709;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	#pagina {
+		background: #1e0fec;
+	}
+
+}
