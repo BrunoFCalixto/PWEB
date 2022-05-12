@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Atividade 12</title>
+</head>
+<script>
+
+
+function aberta() {
+  document.getElementById("janela").src = "janelaaberta.png"
+  document.getElementById("janela").alt="aberta"
+}
+
+function quebrada() {
+  document.getElementById("janela").src = "janelaquebrada.png"
+  document.getElementById("janela").alt="quebrada"
+}
+
+</script>
+
+<body>
+
+<p>Abra a janela</p>
+<img src="janelafechada.png" width="300" height="300" img onmouseover="aberta()" img onclick="quebrada()" id="janela">
+
+
+
+
+</body>
+</html>
